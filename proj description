@@ -1,0 +1,30 @@
+GTORIS — SMART TRAVEL PLANNER
+
+GTORIS is a travel planning application that helps users analyze and optimize their journey between two locations. The system provides distance estimation, cost calculation, travel time, and transport comparisons to help users choose the best travel option.
+
+The project is built using Python and Streamlit, with Folium used for map visualization. It also integrates OpenRouteService (ORS) to display real-world routes instead of straight-line paths.
+
+An important feature of GTORIS is its AI assistant (Ava), powered by a local language model using Ollama. The AI can answer user questions related to the trip, provide recommendations, and give practical travel advice based on the computed data.
+
+FEATURES:
+- Selection of Indian states and cities
+- Distance, cost, and time estimation
+- Transport comparison (Car, Train, Flight)
+- Interactive map visualization
+- Real route display using ORS API
+- AI travel assistant for answering queries
+
+TECHNOLOGIES USED:
+- Python
+- Streamlit
+- Pandas & NumPy
+- Folium (maps)
+- OpenRouteService API
+- Ollama (local AI model)
+
+USE CASE:
+This project can be used as a smart assistant for planning trips efficiently by balancing cost, time, and convenience. It is also useful as a demonstration of integrating mapping systems with AI-based assistance.
+
+NOTE:
+- Internet is required for map routing (ORS API)
+- Ollama must be installed locally for AI features
