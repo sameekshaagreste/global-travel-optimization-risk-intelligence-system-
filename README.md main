@@ -1,0 +1,33 @@
+#  GTORIS — Smart Travel Planner
+
+GTORIS is an AI-powered travel planning system that provides:
+- Route optimization
+- Cost & time estimation
+- Transport comparison
+- AI-based travel assistant (Ollama)
+
+##  Features
+
+-  Full India state & city selection
+-  Real route mapping (OpenRouteService)
+-  Local AI assistant (Ollama - no API required)
+-  Smart travel insights
+
+---
+
+## 🛠 Tech Stack
+
+- Streamlit
+- Python
+- Folium (Maps)
+- OpenRouteService API
+- Ollama (LLM)
+
+---
+
+## ⚙️ Setup
+
+### 1. Clone repo
+```bash
+git clone https://github.com/your-username/gtoris.git
+cd gtoris
