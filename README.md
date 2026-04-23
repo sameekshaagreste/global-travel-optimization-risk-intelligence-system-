@@ -1,22 +1,22 @@
-# GTORIS – Global Travel Optimization & Risk Intelligence System
+## 🌍 GTORIS — Intelligent Travel Planning System
 
-**Description:**  
-Machine learning and graph-based system for predicting flight prices, evaluating country risk, and finding optimal travel routes.
+GTORIS is a comprehensive travel intelligence platform designed to assist users in planning efficient and informed journeys. The system analyzes routes between selected locations and provides detailed insights including distance, estimated travel time, cost calculations, and transport comparisons across different modes such as car, train, and flight.
 
-**Features:**  
-- Flight price prediction using Prophet  
-- Country risk scoring (political, health, crime, airline reliability)  
-- Route optimization using NetworkX  
-- Outputs best travel path and risk level
+An interactive map interface visualizes the route between source and destination. When integrated with the OpenRouteService (ORS) API, the system displays real-world road routes, offering a more accurate and practical representation of the journey.
 
-**Dataset:**  
-`your_data.csv` contains countries, prices, risk scores, and coordinates.
+A key highlight of GTORIS is its integrated AI assistant, Ava, powered by a local language model. The assistant can answer a wide range of travel-related questions, provide personalized recommendations, explain trade-offs between cost and time, and guide users in making better travel decisions based on the computed trip data.
 
-**How to Run:**  
-1. Install dependencies: `!pip install prophet streamlit networkx
-`  
-2. Open the notebook `app.py` or run in Google Colab  
-3. Ensure the CSV file is in the same directory or update the path  
+The application is built using Streamlit for an interactive web interface, along with data processing and visualization tools such as Pandas, NumPy, and Folium. It combines routing logic, cost estimation models, and AI-driven assistance into a unified system.
+
+### Core Capabilities:
+- 🇮🇳 Selection of Indian states and cities
+- 📏 Distance, cost, and travel time estimation
+- 🚀 Transport comparison (Car, Train, Flight)
+- 🗺 Interactive route visualization with real map support (ORS API)
+- 🧠 AI-powered travel assistant for intelligent query handling
+- ⚙️ Fully local AI integration using Ollama (no external API required)
+
+GTORIS demonstrates how traditional travel planning can be enhanced using data analysis, mapping technologies, and embedded AI to create a more intuitive and decision-driven user experience. 
 
 **Author:** Sameeksha Thammalla  
 
