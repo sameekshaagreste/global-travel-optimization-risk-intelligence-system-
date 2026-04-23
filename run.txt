@@ -1,0 +1,30 @@
+HOW TO RUN GTORIS PROJECT
+
+1. Download or clone the project folder
+
+2. Open terminal in the project folder
+
+3. Install required libraries:
+   pip install -r requirements.txt
+
+4. Install Ollama (for AI):
+   Download from https://ollama.com
+
+5. Start Ollama:
+   ollama serve
+
+6. (First time only) download AI model:
+   ollama pull llama3
+
+7. Run the Streamlit app:
+   streamlit run app.py
+
+8. Open browser:
+   http://localhost:8501
+
+9. (Optional) For real map routes:
+   - Get API key from https://openrouteservice.org
+   - Add it in app.py:
+     ORS_API_KEY = "your_key_here"
+
+DONE
